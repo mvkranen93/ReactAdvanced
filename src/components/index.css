@@ -1,0 +1,64 @@
+  :root {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+  }
+
+  #app {
+    width: 100%;
+  }
+
+  a {
+    font-weight: 500;
+    color: #db0891;
+    text-decoration: inherit;
+  }
+
+  a:hover {
+    color: #db0891;
+  }
+
+  nav {
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+    a {
+      font-weight: 500;
+      color: #fff;
+      text-decoration: inherit;
+    }
+    
+    a:hover {
+      color: #db0891;
+    }
+    
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+  }
+
+  nav ul li {
+    padding: 0 20px;
+  }
+
+
+.cardtitle {
+  color: #db0891;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.carddescription {
+  margin: 10px 0px 10px 0px;
+}
+
+.cardauthor {
+  color: #db0891;
+}
